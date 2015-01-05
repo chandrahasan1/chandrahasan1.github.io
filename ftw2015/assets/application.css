@@ -117,8 +117,13 @@ p.small {
   font-size: 0.8em; }
 
 h1 {
-  font-size: 2em;
-   }
+    font-size: 3em;
+    text-align:center;
+    background:#E01246;
+    color:white;
+    font-family:'MyriadPro-Regular';
+    text-transform:lowercase;
+  }
 
 body > header img {
   width: 400px;
