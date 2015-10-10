@@ -33,6 +33,14 @@ a.active {
     color: #0065a1;
     text-decoration: none;
 }
+.url {
+	color: #00A0FF;
+    text-decoration: none;
+}
+.url:hover {
+	color: #0065a1;
+    text-decoration: none;
+}
 h1,
 h2,
 h3,
@@ -47,7 +55,7 @@ h6 {
     margin: 0 auto
 }
 .bg-light-gray {
-    background-color: #f7f7f7
+    background-color: #fff
 }
 .bg-darkest-gray {
     background-color: #222
@@ -276,7 +284,7 @@ header .intro-text .intro-heading {
     }
 }
 section {
-    padding: 100px 0
+    padding: 50px 0
 }
 section h2.section-heading {
     font-size: 40px;
@@ -298,7 +306,13 @@ section h3.section-subheading {
 }
 .service-heading {
     margin: 15px 0;
-    text-transform: none
+    text-transform: none;
+    color: #333333;
+}
+.service-heading:hover {
+    margin: 15px 0;
+    text-transform: none;
+    color: #333333;
 }
 #portfolio .portfolio-item {
     margin: 0 0 15px;
