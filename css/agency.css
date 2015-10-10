@@ -156,13 +156,14 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-brand {
     color: #00A0FF;
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503
+    color: #00A0FF
 }
 .navbar-default .navbar-collapse {
     border-color: rgba(255, 255, 255, .02)
@@ -183,7 +184,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #e2e1de
+    color: #9c9c9c
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -196,12 +197,19 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 .navbar-default .navbar-nav>li>a {
-	color: #e2e1de;
+	color: #9c9c9c;
 }
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #00A0FF;
     background-color: #fff;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 16px;
+    line-height: 20px;
 }
 @media (min-width: 768px) {
     .navbar-default {
@@ -213,7 +221,6 @@ fieldset[disabled] .btn-xl.active {
         border: 0
     }
     .navbar-default .navbar-brand {
-        font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s
@@ -229,6 +236,10 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em
     }
 }
+
+.navbar .divider-vertical {
+	border-left: 1px solid #9c9c9c;
+}
 header {
     background-image: url(../img/header-bg-1.jpg);
     background-repeat: none;
@@ -241,7 +252,15 @@ header {
     text-align: center;
     color: #fff
 }
-header .intro-text {
+.intro-text {
+	background-image: url(../img/header-bg-1.jpg);
+    background-repeat: none;
+    background-attachment: scroll;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    max-height: 481;
+    max-width: 1030;
     padding-top: 100px;
     padding-bottom: 50px
 }
@@ -284,7 +303,10 @@ header .intro-text .intro-heading {
     }
 }
 section {
-    padding: 50px 0
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
 section h2.section-heading {
     font-size: 40px;
@@ -300,9 +322,9 @@ section h3.section-subheading {
     margin-bottom: 75px
 }
 @media (min-width: 768px) {
-    section {
-        padding: 150px 0
-    }
+    /*section {
+        padding: 10px 0
+    }*/
 }
 .service-heading {
     margin: 15px 0;
