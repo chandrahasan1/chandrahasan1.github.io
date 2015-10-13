@@ -160,7 +160,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
 }
 .navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
+/*.navbar-default .navbar-brand:focus,*/
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
     color: #00A0FF
@@ -303,10 +303,7 @@ header .intro-text .intro-heading {
     }
 }
 section {
-    padding-top: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 10px;
+    padding: 50px 15px;
 }
 section h2.section-heading {
     font-size: 40px;
