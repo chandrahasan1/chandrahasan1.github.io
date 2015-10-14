@@ -187,8 +187,8 @@ fieldset[disabled] .btn-xl.active {
     letter-spacing: 1px;
     color: #9c9c9c
 }
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover/*,
+.navbar-default .nav li a:focus*/ {
     color: #00A0FF;
     outline: 0
 }
