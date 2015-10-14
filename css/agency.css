@@ -308,13 +308,17 @@ header .intro-text .intro-heading {
     }
 }
 section {
+    padding: 100px 15px;
+}
+
+section:first-child{
     padding: 50px 15px;
 }
 
-section .container{
-    padding-top: 50px;
-    padding-bottom: 50px;
+section:nth-child(2){
+    padding: 5px 15px;
 }
+
 section h2.section-heading {
     font-size: 32px;
     margin-top: 0;
