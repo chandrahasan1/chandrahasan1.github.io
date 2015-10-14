@@ -791,3 +791,8 @@ body {
     padding-top: 15px;
     font-size: 12px;
 }
+
+#contact .contact-us-block{
+    margin: 0 auto;
+    float: none;
+}
