@@ -192,6 +192,10 @@ fieldset[disabled] .btn-xl.active {
     color: #00A0FF;
     outline: 0
 }
+
+.navbar-default .nav li a:focus{
+    color: #9c9c9c;
+}
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #00A0FF;
@@ -304,7 +308,7 @@ header .intro-text .intro-heading {
     }
 }
 section {
-    padding: 50px 15px;
+    padding: 100px 15px;
 }
 section h2.section-heading {
     font-size: 32px;
