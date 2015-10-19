@@ -161,7 +161,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
 }
 .navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
+/*.navbar-default .navbar-brand:focus,*/
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
     color: #00A0FF
@@ -187,10 +187,14 @@ fieldset[disabled] .btn-xl.active {
     letter-spacing: 1px;
     color: #9c9c9c
 }
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover/*,
+.navbar-default .nav li a:focus*/ {
     color: #00A0FF;
     outline: 0
+}
+
+.navbar-default .nav li a:focus{
+    color: #9c9c9c;
 }
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
@@ -304,11 +308,17 @@ header .intro-text .intro-heading {
     }
 }
 section {
-    padding-top: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 10px;
+    padding: 100px 15px;
 }
+
+section:first-child{
+    padding: 50px 15px;
+}
+
+section:nth-child(2){
+    padding: 5px 15px;
+}
+
 section h2.section-heading {
     font-size: 32px;
     margin-top: 0;
@@ -780,4 +790,9 @@ body {
 .copyright {
     padding-top: 15px;
     font-size: 12px;
+}
+
+#contact .contact-us-block{
+    margin: 0 auto;
+    float: none;
 }
