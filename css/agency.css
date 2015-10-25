@@ -508,16 +508,12 @@ body {
     background-color: #F9F9F9
 }
 
-@media (min-width: 1200px)
-.span4 {
-    width: 370px;
-}
-
 .span4 {
     text-align: center;
     margin:0 auto;
-    width: 370px; 
+    width: 90%;
 }
+
 .span4 img {
     margin: 0 auto;
     border: 1px solid #e3e3e3;
@@ -527,4 +523,11 @@ body {
     margin-top: 0
 }
 
+@media screen and (min-width: 480px) {
+    .span4 {
+	    text-align: center;
+    	margin:0 auto;
+    	width: 370px; 
+	}
+}
 
